@@ -10,7 +10,9 @@ Transform: The two datasets will be joined on the name of the movie. The transfo
 Load: The combined dataset will be loaded into a final relational database and we will use Postgres.
 
 Lists of datasets that we intend to use: 
+
 Movies on Netflix, Prime, Hulu & Disney+
 https://www.kaggle.com/datasets/ruchi798/movies-on-netflix-prime-video-hulu-and-disney
+
 IMDB movie dataset-
 https://www.kaggle.com/datasets/kevalm/movie-imbd-dataset
