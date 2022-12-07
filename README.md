@@ -1,7 +1,7 @@
 ## team_10-ETL_challenge
 This project was conducted during a data analytics bootcamp through the Georgia Institute of Technology. This project specifically focuses on the ETL database management process. 
 
-#Theme of the Project
+##Theme of the Project
 
 Data Purpose: We are combining the IMDB and movie streaming platform datasets to determine the overall popularity by rating and availability across multiple platforms.
 (final display attributes- genre, IMDB rating, content rating, gross profit, budget, actor_1_name, year)
