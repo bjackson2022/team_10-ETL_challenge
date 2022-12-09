@@ -32,7 +32,7 @@ Python
 We looked for different datasets regarding movies. After searching through several datasets, we were able to find two separate CSV files that have similar attributes and became interested to see what movies were shown on multiple streaming platforms. With these files, we are also able to see two different rating scores to see how they compare. Other data includes genre, content rating, gross profit, budget, actor, year film was released.
 
 **Transform:**
-The transformations we performed are data cleaning utilizing SQLAlchemy, UnicodeData and Pandas. We did have trouble with one of the datasets having a special character in the title column; however, with using the Unicodedata we were able to clean this column. At which point we were able to merge the tables on the title. We also decided to convert all Rotten Tomatoe scores from fractions to floats for common practice
+The transformations we performed are data cleaning utilizing SQLAlchemy, UnicodeData and Pandas. We did have trouble with one of the datasets having a special character in the title column; however, with using the Unicodedata we were able to clean this column. At which point we were able to merge the tables on the title. We also decided to convert all Rotten Tomatoes scores from fractions to floats for common practice. We also transformed the 4 platforms into one single column called "Streaming_Platform" that holds all the platform names it is streaming on (separated by commas). 
 
 **Load:**
 The combined dataset will be loaded into a final relational database and we used Postgres Database. In Postgres, we created a new merged table showing the data we originally stated.
