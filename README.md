@@ -38,6 +38,8 @@ The transformations we performed are data cleaning utilizing SQLAlchemy, Unicode
 The combined dataset will be loaded into a final relational database and we used Postgres Database. In Postgres, we created a new merged table showing the data we originally stated.
 
 
+![alt text](https://github.com/[bjackson2022]/[team_10-ETL_challenge]/blob/[branch]/image.png?raw=true)
+
 ```
 
 ## Help
