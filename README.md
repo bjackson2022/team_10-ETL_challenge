@@ -1,18 +1,21 @@
 ## team_10-ETL_challenge
-This project was conducted during a data analytics bootcamp through the Georgia Institute of Technology. This project specifically focuses on the ETL database management process. 
+Movies across Streaming Platforms
+by Three Idiots
+For this project we wanted to combine the IMDB and Movie Streaming Platform datasets to determine the overall popularity by rating and availability across multiple platforms. We used the ETL to merge both files on the title. The original datasets used:
+Kaggle.com – Movie IMBD Dataset: https://www.kaggle.com/datasets/kevalm/movie-imbd-dataset
+Kaggle.com – Movies on Netflix, Prime Video, Hulu, and Disney+: https://www.kaggle.com/datasets/ruchi798/movies-on-netflix-prime-video-hulu-and-disney
 
-##Theme of the Project
+Extract: 
+We looked for different datasets regarding movies. After searching through several datasets, we were able to find two files that had similar attributes and became interested to see what movies were shown on multiple streaming platforms. With these files, we are also able to see two different rating scores to see how they compare. Other data includes genre, content rating, gross profit, budget, actor, year film was released.
 
-Data Purpose: We are combining the IMDB and movie streaming platform datasets to determine the overall popularity by rating and availability across multiple platforms.
-(final display attributes- genre, IMDB rating, content rating, gross profit, budget, actor_1_name, year)
-Extract: We are using two .csv data sets downloaded from Kaggle.com
-Transform: The two datasets will be joined on the name of the movie. The transformations we would perform on these would be data cleaning, filtering and joining. This will be done with Python and Pandas. 
-Load: The combined dataset will be loaded into a final relational database and we will use Postgres.
+Transform:
+The transformations we performed are data cleaning utilizing SQLAlchemy, NumPy, and UnicodeData. We did have trouble with one of the datasets having a special character in the title column; however, with using the Unicodedata we were able to clean this column. At which point we were able to merge the tables on the title. We also used Pandas and Matplotlib.Pyplot.
 
-Lists of datasets that we intend to use: 
+Load: 
+The combined dataset will be loaded into a final relational database and we 
+will use Postgres. In Postgres, we created a new merged table showing the data we originally stated.
 
-Movies on Netflix, Prime, Hulu & Disney+:
-https://www.kaggle.com/datasets/ruchi798/movies-on-netflix-prime-video-hulu-and-disney
 
-IMDB movie dataset:
-https://www.kaggle.com/datasets/kevalm/movie-imbd-dataset
+
+
+
